@@ -70,6 +70,7 @@ public partial class MainPage : ContentPage
                 cisnienie = stacje[i].cisnienie
             });
         }
+        Dodaj.IsEnabled = false;
     }
 
 	public MainPage()

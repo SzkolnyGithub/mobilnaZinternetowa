@@ -22,7 +22,8 @@
                 />
             <Button 
                 Clicked="dodaj"
-                Text="Dodaj??"/>
+                Text="Dodaj??"
+                x:Name="Dodaj"/>
             <ListView ItemsSource="{Binding listaStacji}" ItemSelected="wybrany">
                 <ListView.ItemTemplate>
                     <DataTemplate>
